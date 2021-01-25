@@ -1,0 +1,11 @@
+@media (max-width: 750px) {
+    .movieSearch {
+        max-width: none !important;
+    }
+}
+
+.ant-collapse-item {
+    border: 1px solid gray !important;
+    border-left: none !important;
+    border-right: none !important;
+}

@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+a{
+  color: #000!important;
+}
+.idoSdu > .wrapper{
+  border-radius: 2px!important;
+  box-shadow: none;
+  border:2px solid #ddd!important;
+  z-index: 9999999!important;
+}
+.react-tabs{
+  z-index: 0!important;
+}
+.react-tabs__tab-list{
+  border:0!important;
+}
+.react-tabs__tab--selected{
+  border:0!important;
+  border-bottom: 4px solid #6666FF!important;
+}
+.react-tabs__tab a,
+.react-tabs__tab a:hover,
+.react-tabs__tab p,
+.react-tabs__tab p:hover{
+  text-decoration: none!important;
+}
+.react-tabs__tab--selected p{
+  margin-bottom: 0;
+  border:0;
+}
+.react-tabs__tab--selected a,
+.react-tabs__tab--selected p{
+  color: #6666FF!important;
+  border:0;
+}
+
+.accordion{
+  border:0;
+}
+.card{
+  background-color: #fff;
+  border:0;
+  border-bottom:2px solid #ddd;
+}
+.card .card-header{
+  background-color: #fff!important;
+  border-top:2px solid #ddd;
+  border-bottom: 0;
+}
+.card .card-header .btn.btn-link{
+  font-size: 16px;
+  color: #797979;
+  font-weight: 500;
+  text-decoration: none;
+  border:0;
+  outline: 0;
+}
+.card .card-header .btn.btn-link:focus{
+  border:0;
+  outline: 0;
+  box-shadow: none;
+}
+.card .card-body{
+  padding-top: 0;
+}
+/*.collapse{
+  position: relative;
+}
+.collapse:before{
+  position: absolute;
+  content: "";
+  left: 0;
+  top:-44px;
+  height: 30px;
+  width: 30px;
+  background-color: #000;
+
+}*/
+.input-search
+{
+    width: 100%;
+    padding: 13px;
+    
+    background-color: rgba(0,0,0,0);
+    color: #212121;
+}
+.demo-btn{
+  background-color: #6666FF;
+  color: #fff;
+}
+.collapse{
+  position: relative;
+}
+.accordion .card-header:after {  
+    font-family: 'FontAwesome';  
+    content: "\f054";
+    float: left; 
+    padding-top: 5px;
+    color: #6666FF;
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "\f077"; 
+}
